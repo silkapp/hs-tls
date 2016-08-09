@@ -141,7 +141,7 @@ ciphersuite_all :: [Cipher]
 ciphersuite_all =
     [ cipher_ECDHE_RSA_AES128GCM_SHA256
     , cipher_ECDHE_RSA_AES256CBC_SHA
-    , cipher_ECDHE_ECDSA_AES128GCM_SHA256
+--    , cipher_ECDHE_ECDSA_AES128GCM_SHA256
     , cipher_DHE_RSA_AES256_SHA256, cipher_DHE_RSA_AES128_SHA256
     , cipher_DHE_RSA_AES256_SHA1, cipher_DHE_RSA_AES128_SHA1
     , cipher_DHE_DSS_AES256_SHA1, cipher_DHE_DSS_AES128_SHA1
@@ -161,7 +161,7 @@ ciphersuite_strong :: [Cipher]
 ciphersuite_strong =
     [ cipher_ECDHE_RSA_AES128GCM_SHA256
     , cipher_ECDHE_RSA_AES256CBC_SHA
-    , cipher_ECDHE_ECDSA_AES128GCM_SHA256
+--    , cipher_ECDHE_ECDSA_AES128GCM_SHA256
     , cipher_DHE_RSA_AES256_SHA256
     , cipher_AES256_SHA256
     , cipher_AES256_SHA1
